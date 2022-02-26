@@ -1,3 +1,7 @@
+layout: page
+title: "problem statement"
+permaklink: /problem.md/
+
 ## Problem
 
 ## [Problem Statement](https://diegomorales30.github.io/NullPointers/problem.md)
