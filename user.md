@@ -4,13 +4,13 @@
 
 1: Ease of Use
 
-    As a manager of a small pet food distributor, I want my team and I to have little issue using the software we are given. 
+As a manager of a small pet food distributor, I want my team and I to have little issue using the software we are given. 
 
-    Elaboration: The software must be intuitive for a non-computer savvy person. This means it should be designed and organized in a way that I have no questions about the actions I am taking within the software. 
+Elaboration: The software must be intuitive for a non-computer savvy person. This means it should be designed and organized in a way that I have no questions about the actions I am taking within the software. 
 
-    Constrains: Computer skill level.
+Constrains: Computer skill level.
 
-    Effort Estimation: 10 minutes.
+Effort Estimation: 10 minutes.
 
 
 2: Data Validation
