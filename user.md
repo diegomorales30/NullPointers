@@ -2,6 +2,7 @@
 
 ## [User Stories](https://diegomorales30.github.io/NullPointersWebsite/user)
 
+
 1: Ease of Use
 
 As a manager of a small pet food distributor, I want my team and I to have little issue using the software we are given. 
@@ -13,17 +14,27 @@ Constrains: Computer skill level.
 Effort Estimation: 10 minutes.
 
 
+
 2: Data Validation
 
-    As manager, I want to be sure that my system is going to catch all possible mistakes as I enter data so that I can be sure that when I fetch the data it is totally accurate. 
+As manager, I want to be sure that my system is going to catch all possible mistakes as I enter data so that I can be sure that when I fetch the data it is totally accurate. 
 
-    Elaboration: I should be able to freely interact with the software in the sense that I will not be able to make a critical mistake. I want to be sure that our data, when accessed, represents the truth as we have been told, so we can confidently distribute our pet food.
+Elaboration: I should be able to freely interact with the software in the sense that I will not be able to make a critical mistake. I want to be sure that our data, when accessed, represents the truth as we have been told, so we can confidently distribute our pet food.
 
-    Constraints: none.
+Constraints: none.
 
-    Effor Estimation: varies.
+Effort Estimation: varies.
 
 
-3: 
+
+3: Security
+
+As a manager or team member, it is vital that the information is stored in a secure manner so that we know the data was only manipulated by team members.
+
+Elaboration: Since we offer a free service, inventory is managed with strict protocals. A recipient must prove that they are below income thresholds, and that they only recive the food 7 times a year. For this reason, we must ensure that we have a password safe system where only team members are able to change these qualifications.
+
+Constraints: none.
+
+Effort Estimation: varies.
     
         
