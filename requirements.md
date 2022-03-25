@@ -27,38 +27,34 @@
 
 2. General Description of Product
 
+    This product is a development tool that will be used to help a local animal shelter input and read data. The current system they have in place is not very user friendly and this app’s goal is to help the user input, store and read specific data which will lead to an overall optimization in the animal shelters data management.
+
     2.1 Context of Product
 
-    This software will be one one computer, and one person will be using it. This 
-    is a stand-alone piece of software. 
+    The context that this product will be in is an app on a local desktop computer that only the admins have access to. Once prepared on the desktop, the app will be able to store past and new data coming into it.
 
     2.2 Domain Model 
 
     Graphic needed. 
 
-    This model works as such:
-
-    CSV <--Data Validation--> UI
+    his domain model is a representation of the owner class. The owner class will first have to login and if the username and password is correct then they will either be able to add a new pet or search pets. From those options they will be taken to a creation block or search block which can be followed by editing. This is the basic concept of the owner class.
     
     2.3 Product Functions
 
-    Quickly record and update a person's use of free pet food distributor. 
+    This product will be able to get user input and store that input into different classes such as owner or pets. These owner and pet classes will store this data and create the user to easily create or search for any specific data member.
 
 
     2.4 User Characteristics and Expectations
 
-    The sole user is not assumed to be good at working on computers. Simple design is 
-    essential.
+    The sole user is not assumed to be good at working on computers. Simple design is essential.
 
     2.5 Constraints
 
-    Product is limited to time of submission, and it's limited to the abilities of the 
-    person who will use it, rather it should be simple since we should assume the person 
-    using it is not an intuitive software user. 
+    Product is limited to time of submission, and it's limited to the abilities of the person who will use it, rather it should be simple since we should assume the person using it is not an intuitive software user. Some additional constraints on our system would include having multiple identifiers for data. When the users do a search for a specific owner and the data set has more than one person with the same name then we must have information to specify between the different data.
 
     2.6 Assumptions and Dependencies
 
-    JRE 11+ and JavaFX SDK.
+    Our system will depend on a desktop computer that has the ability to download and run basic applications. Our application will be dependent on software such as javaFX to run and maintain the user interface. 
 
 3. Functional Requirements
  [User Stories](https://diegomorales30.github.io/NullPointersWebsite/user)
