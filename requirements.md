@@ -36,7 +36,7 @@
         JRE 11+ and JavaFX SDK.
 
 3. Functional Requirements
-    ## [User Stories](https://diegomorales30.github.io/NullPointersWebsite/user)
+# [User Stories](https://diegomorales30.github.io/NullPointersWebsite/user)
 
 
 4. System and Non-Functional Requirements
