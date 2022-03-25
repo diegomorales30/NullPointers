@@ -35,7 +35,7 @@
 
     2.2 Domain Model 
 
-    [!Domain Model](graphic.png)
+    ![Domain Model](graphic.png)
 
     This domain model is a representation of the owner class. The owner class will first have to login and if the username and password is correct then they will either be able to add a new pet or search pets. From those options they will be taken to a creation block or search block which can be followed by editing. This is the basic concept of the owner class.
     
