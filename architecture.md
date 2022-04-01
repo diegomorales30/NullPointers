@@ -11,11 +11,16 @@
 
 We are designing a system that will keep track of all patrons who utilize a free pet food distributor in order to assist in managing the supply. The system will be used to record new patrons and also update each patron as necessary. 
 
+The ultimate goal is to make it simple to record, update and retrieve information on all patrons. 
+
 ## Architectural Drivers
 
 Design: Intuitive and simple. 
+    Should not require instructions, it should be obvious what each aspect will do.
 Functional Requirements: Edit, save, archive, display. 
-Constraints: ???
+    The person using this software must have complete confidence that their data will be 
+    recorded accurately and saved at all times.
+
 
 ## Possible Choices
 Strategy Design Pattern:
@@ -27,6 +32,9 @@ Data will be sent to the CSV, filtered through the data validation.
 Data will be gathered from the CSV, and turned into owner objects.
 Objects can then be accessed for data validation simply. 
 
+## Chosen Architecture
+Here is a simple graphic of our chosen architecture. 
+![Chosen Architecture](PipeArch.png)
 
 ## Conclusion
 Pipes and Filters was chosen because it seems the most intuitive for a read/write/display software.
