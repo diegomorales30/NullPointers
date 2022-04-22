@@ -12,3 +12,24 @@ In our project we performed system testing through testing the full functionalit
 
 # Acceptance Testing
 
+1: Ease of Use
+This simplicity of this program was tested rather simply. WE timed how long it would take to do a standard action (such as adding or removing an owner, or editing an attribute). WE ensured that it took no longer then ten seconds to complete these standard actions.
+
+2: Data Validation
+We ensured that whenever data is changed or written to the database, the user will see clearly that such action has taken place. Testing this required print statement to verify whenever data was altered, which we then assessed in terms of what the user needs to know. Generally, all date manipulation has been signified to the person using this software. 
+
+3: Security
+
+Security concerns have been lowered as we communicated with the customer. However we have implemented archive features so that even if the data is changed in some manner, the person who has this software can look back in their records. 
+
+4: Intuitiveness
+
+This was tested by having testers use our software without instruction and seeing if they can intuitively use the software. We only told them what the software is supposed to do, not how to do it. Our software appears to be very easy to use and understand.
+
+5: Speed
+
+We have done very little testing for speed simply because the software is already very fast.
+
+6: Confidence in Manipulation
+
+As previously mentioned, we have ensured that the user is notified when any changes are made to the data. We also have added popup text when the user hovers over a button so they can see additional material related to the function of the software. 
