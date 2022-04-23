@@ -12,19 +12,44 @@ In our project we performed system testing through testing the full functionalit
 
 # Acceptance Testing
 
+What the test objectives are 
+• How the test will be run 
+• What criteria will be used to determine when the testing is 
+complete
+
 1: Ease of Use
-This simplicity of this program was tested rather simply. WE timed how long it would take to do a standard action (such as adding or removing an owner, or editing an attribute). WE ensured that it took no longer then ten seconds to complete these standard actions.
+This simplicity of this program was tested rather simply. WE timed how long it would take to do a standard action (such as adding or removing an owner, or editing an attribute). We ensured that it took no longer then ten seconds to complete these standard actions.
+
+    Objective: Ensure time to do any action is acceptable.
+    Test: Print testing result in a file. Attempt to search, edit, and save an owner. 
+    Criteria: Action takes no more than 10 seconds to complete. 
+    Status: Passed.
 
 2: Data Validation
 We ensured that whenever data is changed or written to the database, the user will see clearly that such action has taken place. Testing this required print statement to verify whenever data was altered, which we then assessed in terms of what the user needs to know. Generally, all date manipulation has been signified to the person using this software. 
+
+    Objective: Insure at the front and back end, saved data is asknowledged or ensured.
+    Test: Save data in all ways possible, especially data that should not be saved. Run a random name generator into the data validation.
+    Criteria: Test will be complete if zero faults are recovered after testing 100,000 names.
+    Status: Passed.
 
 3: Security
 
 Security concerns have been lowered as we communicated with the customer. However we have implemented archive features so that even if the data is changed in some manner, the person who has this software can look back in their records. 
 
+    Objective: See how easy it is to change data by accessing files.
+    Test: Access files and change data.
+    Criteria: null
+    Status: In progress/ passed. Due to scope constraints, we have not added additional security measures beyond the password projection of the user's personal computer. We have hidden the files containing metadata and the main database so these files will not be mistakenly altered. 
+
 4: Intuitiveness
 
 This was tested by having testers use our software without instruction and seeing if they can intuitively use the software. We only told them what the software is supposed to do, not how to do it. Our software appears to be very easy to use and understand.
+
+    Objective:
+    Test:
+    Criteria:
+    Status: 
 
 5: Speed
 
