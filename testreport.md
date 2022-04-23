@@ -46,15 +46,20 @@ Security concerns have been lowered as we communicated with the customer. Howeve
 
 This was tested by having testers use our software without instruction and seeing if they can intuitively use the software. We only told them what the software is supposed to do, not how to do it. Our software appears to be very easy to use and understand.
 
-    Objective:
-    Test:
-    Criteria:
-    Status: 
+    Objective: Ensure software is not confusing.
+    Test: Use testers.
+    Criteria: Testers have no questions about the actions they are taking.
+    Status: Passed
 
 5: Speed
 
-We have done very little testing for speed simply because the software is already very fast.
+We have done very little testing for speed simply because the software is already fast enough in all cases.
 
 6: Confidence in Manipulation
 
 As previously mentioned, we have ensured that the user is notified when any changes are made to the data. We also have added popup text when the user hovers over a button so they can see additional material related to the function of the software. 
+
+    Objective: Ensure person using the software is not ever concerned about actions they are taking.
+    Test: Ensure appropriate popup windows open suring data manipulation.
+    Criteria: Ensure all branches are accessed in  data manipulation actions and that anytime the csv is changed the user is notified.
+    Status: Passed
