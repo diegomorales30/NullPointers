@@ -8,17 +8,16 @@ The ultimate goal is to make it simple to record, update and retrieve informatio
 
 ## Architectural Drivers
 
-Design: Intuitive and simple. 
-    Should not require instructions, it should be obvious what each aspect will do.
-Functional Requirements: Edit, save, archive, display. 
-    The person using this software must have complete confidence that their data will be 
-    recorded accurately and saved at all times.
+Design: Intuitive and simple. Should not require instructions, it should be obvious what each aspect will do.
+
+Functional Requirements: Edit, save, archive, display.The person using this software must have complete confidence that their data will be recorded accurately and saved at all times.
 
 
 ## Possible Choices
 Strategy Design Pattern:
 Selects algorithm on runtime, which is useful when various algorithms are available but best algorithm isn’t known
 For our application it can decide the best algorithm when the user is searching or inserting data
+
 Pipes and Filter:
 Since the crux of our software is essentially read/write methods, Pipes and Filter makes the most sense. 
 Data will be sent to the CSV, filtered through the data validation. 
