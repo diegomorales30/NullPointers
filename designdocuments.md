@@ -1,6 +1,4 @@
-## Design Documents
-
-## [Design Document](https://diegomorales30.github.io/NullPointersWebsite/designdocuments)
+# Design Documents
 
 ![Domain Model](updatedArch.png)
 
@@ -15,4 +13,4 @@ the JavaFx GUI. We are using a pipe and filter technique where the Owners are co
 the CSV and validated, then displayed on the GUI. If an owner is to be edited, the change is filtered 
 back to the CSV via data validation. The process is simple. 
 
-## [Back](https://diegomorales30.github.io/NullPointersWebsite/)
+### [Back](https://diegomorales30.github.io/NullPointersWebsite/)

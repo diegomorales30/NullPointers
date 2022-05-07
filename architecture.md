@@ -1,7 +1,4 @@
-## Architecture
-
-
-## [Architecture](https://diegomorales30.github.io/NullPointersWebsite/architecture)
+# Architecture
 
 ## Project Overview
 
@@ -37,4 +34,4 @@ Pipes and Filters was chosen because it seems the most intuitive for a read/writ
 Drawback could be that pipes and filters isn’t great for an interactive system.
 
 
-## [Back](https://diegomorales30.github.io/NullPointersWebsite/)
+### [Back](https://diegomorales30.github.io/NullPointersWebsite/)
