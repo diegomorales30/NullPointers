@@ -1,7 +1,6 @@
 ## User Stories
 
 ## [User Stories](https://diegomorales30.github.io/NullPointersWebsite/user)
-## [Back](https://diegomorales30.github.io/NullPointersWebsite/)
 
 
 1: Ease of Use
@@ -69,3 +68,5 @@ Elaboration: I don't want to fear that a mistake I've made will cause me to lose
 Constraints: none
 
 Effort Estimation: 1 hour
+
+## [Back](https://diegomorales30.github.io/NullPointersWebsite/)

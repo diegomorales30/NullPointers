@@ -1,7 +1,6 @@
 ## Test Report
 
 ## [Test Report](https://diegomorales30.github.io/NullPointersWebsite/testreport)
-## [Back](https://diegomorales30.github.io/NullPointersWebsite/)
 
 # Component Testing
 
@@ -64,3 +63,5 @@ As previously mentioned, we have ensured that the user is notified when any chan
     Test: Ensure appropriate popup windows open suring data manipulation.
     Criteria: Ensure all branches are accessed in  data manipulation actions and that anytime the csv is changed the user is notified.
     Status: Passed
+
+## [Back](https://diegomorales30.github.io/NullPointersWebsite/)
